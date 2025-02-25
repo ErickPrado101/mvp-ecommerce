@@ -1,8 +1,13 @@
+import type React from "react"
 import Image from "next/image"
 import type { Product } from "../types"
 import AddToCartButton from "./AddToCartButton"
 
-export default function ProductCard({ product }: { product: Product }) {
+interface ProductCardProps {
+  product: Product
+}
+
+const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="bg-card text-card-foreground rounded-lg shadow-lg overflow-hidden">
       <Image
@@ -24,4 +29,6 @@ export default function ProductCard({ product }: { product: Product }) {
     </div>
   )
 }
+
+export default ProductCard
 

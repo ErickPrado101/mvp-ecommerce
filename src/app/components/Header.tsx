@@ -1,7 +1,8 @@
+import type React from "react"
 import Link from "next/link"
 import { ShoppingCart, User } from "lucide-react"
 
-export default function Header() {
+const Header: React.FC = () => {
   return (
     <header className="bg-secondary text-secondary-foreground py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -28,4 +29,6 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header
 

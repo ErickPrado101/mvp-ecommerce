@@ -13,7 +13,7 @@ const products: Product[] = [
   {
     id: "2",
     name: "Tela Holográfica",
-    description: "Display holográfico 3D impressionante para visualização imersiva",
+    description: "Display holográfico 3D  para visualização imersiva",
     price: 799.99,
     image: "/placeholder.svg",
     points: 800,

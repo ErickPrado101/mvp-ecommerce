@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-background text-foreground`}>
         <CartProvider>{children}</CartProvider>
       </body>
     </html>

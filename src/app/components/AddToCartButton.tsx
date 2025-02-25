@@ -1,11 +1,17 @@
 "use client"
 
+import type React from "react"
+
 import { useState } from "react"
 import { useCart } from "../contexts/CartContext"
 import type { Product } from "../types"
 import { ShoppingCart } from "lucide-react"
 
-export default function AddToCartButton({ product }: { product: Product }) {
+interface AddToCartButtonProps {
+  product: Product
+}
+
+const AddToCartButton: React.FC<AddToCartButtonProps> = ({ product }) => {
   const [isAdded, setIsAdded] = useState(false)
   const { addToCart } = useCart()
 
@@ -27,4 +33,6 @@ export default function AddToCartButton({ product }: { product: Product }) {
     </button>
   )
 }
+
+export default AddToCartButton
 
