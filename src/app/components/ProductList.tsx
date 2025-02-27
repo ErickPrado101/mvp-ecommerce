@@ -7,7 +7,7 @@ const products: Product[] = [
     name: "Laptop ",
     description: "Computação  ultrarrápida em um design elegante",
     price: 1999.99,
-    image: "/placeholder.svg",
+    image: "/D_NQ_NP_980534-MLA82442820505_022025-O.webp",
     points: 2000,
   },
   {
@@ -15,7 +15,7 @@ const products: Product[] = [
     name: "Tela Holográfica",
     description: "Display holográfico 3D  para visualização imersiva",
     price: 799.99,
-    image: "/placeholder.svg",
+    image: "/Tela-de-malha-do-projetor-3d-holografico.jpg",
     points: 800,
   },
   {
@@ -23,7 +23,7 @@ const products: Product[] = [
     name: "Limpador Bot",
     description: "Robôs  que mantêm sua casa impecável",
     price: 299.99,
-    image: "/placeholder.svg",
+    image: "/1668033974.jpg",
     points: 300,
   },
   {
@@ -31,7 +31,7 @@ const products: Product[] = [
     name: "Smartphone ",
     description: "Dispositivo de pessoal multifuncional",
     price: 4999.99,
-    image: "/placeholder.svg",
+    image: "/download.jpeg",
     points: 5000,
   },
 ]
